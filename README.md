@@ -6,7 +6,7 @@ RESTful webservices are being used to implement the functionalities. HTTP GET re
 
 The URL of Random Number Generation Service is the following: http://localhost:8082/
 
-Note 1: JSON string is output in the browser. Note 2: The number of random numbers that are randomly generated is also generated randomly.This means that any number of numbers from 2 to 10 would get generated for addition. Note 3: The range of the numbers generated would be from 1 to 101.
+Note 1: JSON string is output in the browser. Note 2: The number of random numbers that are randomly generated is also generated randomly.This means that any number of numbers from 2 to 10 would get generated for addition. Note 3: The range of the numbers generated would be from 1 to 100.
 
 A sample URL to access the Addition Result Check Service is the following: http://localhost:8082/AdditionResult/97,64,41/202
 
