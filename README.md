@@ -19,6 +19,6 @@ Provided total does not match the total of the numbers.
 
 Note: Spring Boot is being used for the development of the functionalities.
 
-Note: Eclipse IDE was used for development.
+Note: Eclipse IDE was used for development.(Hence, please note, Windows batch script to start the server is not provided).
 
 Note: It was not feasible to implement HTTP 400 error for incorrect addition total in the request.. Hence, a corresponding return message has been provided accordingly.
