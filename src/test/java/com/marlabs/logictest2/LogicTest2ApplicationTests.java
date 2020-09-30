@@ -24,7 +24,7 @@ class LogicTest2ApplicationTests extends AbstractTest {
 	   String content = mvcResult.getResponse().getContentAsString();
 	   System.out.println("content="+content);
 	   Integer[] randomNumbers = super.mapFromJson(content, Integer[].class);
-	   assertTrue(randomNumbers.length > 1);
+	   assertTrue(randomNumbers.length > 1 && randomNumbers.length < 10);
 	}
 	
 	@Test
