@@ -13,7 +13,7 @@ A sample URL to access the Addition Result Check Service is the following: http:
 This is actually in the format like the following: http://localhost:8080/AdditionResult/{comma-separated-numbers}/{total}
 
 JUnit tests are available for the following 3 conditions:
-The number of random numbers generated is greater than 1. 
+The number of random numbers generated is greater than 1 and less than 10. 
 Provided total matches the total of the numbers.
 Provided total does not match the total of the numbers.
 
